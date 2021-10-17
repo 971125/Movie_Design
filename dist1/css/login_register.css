@@ -1,0 +1,44 @@
+*{
+		margin: 0;
+		padding: 0;
+		user-select: none;
+	}
+	.login_content{
+		width: 1000px;
+		height: 500px;
+		margin-top: 100px;
+		margin-left: 50px;
+		position: absolute;		
+	}
+	.login{
+		width: 800px;
+		position: absolute;
+		text-align: center;
+		border: #D8D8D8 solid 1px;
+		padding-top: 50px;
+		padding-bottom: 100px;
+		background-image: url(../../public/img/login.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.users{
+		width: 30%;
+		height: 500px;
+		position: absolute;
+		margin-left: 850px;
+		padding-left: 20px;
+		padding-right: 20px;
+		border-left: #2C3E50 dashed 1px;
+		overflow: auto;
+	}
+	label{
+		width: 100px;
+		text-align: right;
+	}
+	input{
+		display: inline-block;
+		margin-left: 50px;
+		margin-top: 30px;
+	}
+	
